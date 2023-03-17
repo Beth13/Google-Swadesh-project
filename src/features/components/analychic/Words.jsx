@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "../../styles/words.css";
 
 const Words = ({ advancedData }) => {
