@@ -1,0 +1,28 @@
+.navigation {
+  display: flex;
+  height: 50px;
+  background-color: #fff0b3;
+}
+
+nav {
+  margin: auto;
+  text-align: center;
+}
+
+.navigation__item {
+  transition: all 0.2s linear 0s;
+  color: black;
+  text-decoration: none;
+  line-height: 42px;
+  font-size: 22px;
+  margin-right: 90px;
+}
+
+.navigation__item:hover {
+  opacity: 0.8;
+  border-bottom: 3px solid black;
+}
+
+.navigation__item:last-child {
+  margin-right: 0;
+}

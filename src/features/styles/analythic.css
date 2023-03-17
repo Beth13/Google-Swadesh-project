@@ -1,0 +1,56 @@
+.res {
+  display: flex;
+  flex-direction: column;
+}
+
+.res__title {
+  text-align: center;
+  margin: 50px 0 0;
+  font-size: 28px;
+}
+
+.res__main {
+  margin: auto;
+  margin-top: 50px;
+}
+
+table,
+th,
+td {
+  border: 2px solid;
+}
+
+th {
+  line-height: 36px;
+}
+
+td {
+  line-height: 30px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.res__btn {
+  transition: all 0.2s linear 0s;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 10px;
+  line-height: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #fff0b3;
+  cursor: pointer;
+}
+
+.res__btn:hover {
+  background-color: #ffe066;
+  border-bottom: 3px solid black;
+}
+
+.link__btn {
+  margin: 30px auto 0;
+  text-decoration: none;
+  color: black;
+}
